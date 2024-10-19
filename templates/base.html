@@ -2,9 +2,396 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AniBu</title>
+
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="static/css/style.css">
+
 </head>
 <body>
-Главный шаблон для страниц
+
+    <!-- header section start -->
+    <header>
+        <a href="#" class="logo"><i class="fas fa-infinity"></i>AniBu.</a>
+        <nav class="navbar">
+             <a href="index.html">Главная</a>
+             <a href="#anime">Аниме</a>
+             <a href="#child">KinBu</a>
+             <a href="#family">Аккаунт</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+        </div>
+    </header>
+
+<!-- home section start -->
+
+<section class="home" id="home">
+
+    <div class="swiper home-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box " style="background: url(static/img/Kakegurui.png) no-repeat;">
+                    <div class="content">
+                        <h3>Kakegurui</h3>
+                        <p>Тут из базы взять.</p>
+                        <a href="#" class="btn">Смотреть</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box second" style="background: url(static/img/DEATHNOTE.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>DEATH NOTE</h3>
+                         <p>Тут из базы взять.</p>
+                        <a href="#" class="btn">Смотреть</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box " style="background: url(static/img/one.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>One-Punch Man</h3>
+                         <p>Тут из базы взять.</p>
+                        <a href="#" class="btn">Смотреть</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box " style="background: url(static/img/naruto.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>Naruto</h3>
+                        <p>Тут из базы взять.</p>
+                        <a href="#" class="btn">Смотреть</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- anime section start -->
+<section class="anime" id="anime">
+    <h1 class="heading">Мы рекомендуем</h1>
+    <div class="swiper anime-slider">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(static/img/anime-img-1.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>Naruto</h3>
+                    <p>Тут из базы взять.</p>
+                    <a href="#" class="btn">Смотреть</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(static/img/anime-img-2.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>One-Punch Man</h3>
+                    <p>Тут из базы взять.</p>
+                    <a href="#" class="btn">Смотреть</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(static/img/anime-img-3.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>DEATH NOTE</h3>
+                    <p>Тут из базы взять.</p>
+                    <a href="#" class="btn">Смотреть</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(static/img/anime-img-4.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>Black Clover</h3>
+                    <p>Тут из базы взять.</p>
+                    <a href="#" class="btn">Смотреть</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(static/img/anime-img-5.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>Jujutsu Kaisen</h3>
+                    <p>Тут из базы взять.</p>
+                    <a href="#" class="btn">Смотреть</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(static/img/anime-img-6.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>Haikyu!!</h3>
+                    <p>Тут из базы взять.</p>
+                    <a href="#" class="btn">Смотреть</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- action section start -->
+
+<section class="action" id="action">
+    <h1 class="heading">Экшен</h1>
+    <div class="swiper action-slider">
+        <div class="swiper-wrapper">
+
+
+
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(img/action-1.jpg) no-repeat;"></div>
+                    <div class="content">
+                        <h3>Kuroko's Basketball</h3>
+                        <p>Типа описания</p>
+                        <a href="#" class="btn">Смотреть</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(img/action-2.jpg) no-repeat;"></div>
+                    <div class="content">
+                        <h3>AHIRU NO SORA</h3>
+                        <p>Типа описания</p>
+                        <a href="#" class="btn">Смотреть</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(img/action-3.jpg) no-repeat;"></div>
+                    <div class="content">
+                        <h3>Seraph of the End</h3>
+                        <p>Типа описания</p>
+                        <a href="#" class="btn">Смотреть</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(img/action-4.jpg) no-repeat;"></div>
+                    <div class="content">
+                        <h3>Kuroko's  Last Game</h3>
+                        <p>Типа описания</p>
+                        <a href="#" class="btn">Смотреть</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(img/acion-5.jpg) no-repeat;"></div>
+                    <div class="content">
+                        <h3>Fate/Zero</h3>
+                        <p>Типа описания</p>
+                        <a href="#" class="btn">Смотреть</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(img/acion-6.jpg) no-repeat;"></div>
+                    <div class="content">
+                        <h3>Hellsing Ultimate</h3>
+                        <p>Типа описания</p>
+                        <a href="#" class="btn">Смотреть</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(img/action-7.jpg) no-repeat;"></div>
+                    <div class="content">
+                        <h3>DEVILS'LINE</h3>
+                        <p>Типа описания</p>
+                        <a href="#" class="btn">Смотреть</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(img/action-8.jpg) no-repeat;"></div>
+                    <div class="content">
+                        <h3>Legend of Exorcism</h3>
+                        <p>Типа описания</p>
+                        <a href="#" class="btn">Смотреть</a>
+                    </div>
+                </div>
+
+
+
+</div>
+</div>
+</section>
+
+<!-- child section start -->
+
+<section class="child" id="child">
+    <h1 class="heading">Детское</h1>
+    <div class="swiper child-slider">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/child-1.jpg) no-repeat"></div>
+                <div class="content">
+                    <h3>Beyblade</h3>
+                    <p>Типа описания</p>
+                    <a href="#" class="btn">Смотреть</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/child-2.jpg) no-repeat"></div>
+                <div class="content">
+                    <h3>Beyblade Burst Turbo</h3>
+                    <p>Типа описания</p>
+                    <a href="#" class="btn">Смотреть</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/child-3.jpg) no-repeat"></div>
+                <div class="content">
+                    <h3>Bakugan: Battle Planet</h3>
+                    <p>Типа описания</p>
+                    <a href="#" class="btn">Смотреть</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/child-4.jpg) no-repeat"></div>
+                <div class="content">
+                    <h3>Sonic X</h3>
+                    <p>Типа описания</p>
+                    <a href="#" class="btn">Смотреть</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/child-5.jpg) no-repeat"></div>
+                <div class="content">
+                    <h3>Yowamushi Pedal</h3>
+                    <p>Типа описания</p>
+                    <a href="#" class="btn">Смотреть</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- family section start -->
+
+<section class="family" id="family">
+    <h1 class="heading">Семейное</h1>
+    <div class="swiper family-slider">
+    <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+            <div class="box" style="background: url(img/family-1.jpg) no-repeat"></div>
+            <div class="content">
+                <h3>STAND BY ME Doraemon 2</h3>
+                <p>Типа описания</p>
+                <a href="#" class="btn">Смотреть</a>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="box" style="background: url(img/family-2.jpg) no-repeat"></div>
+            <div class="content">
+                <h3>Pokémon the Movie</h3>
+                <p>Типа описания</p>
+                <a href="#" class="btn">Смотреть</a>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="box" style="background: url(img/family-3.jpg) no-repeat"></div>
+            <div class="content">
+                <h3>Hows Moving Castle</h3>
+                <p>Типа описания</p>
+                <a href="#" class="btn">Смотреть</a>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="box" style="background: url(img/family-4.jpg) no-repeat"></div>
+            <div class="content">
+                <h3>Spirited Away</h3>
+                <p>Типа описания</p>
+                <a href="#" class="btn">Смотреть</a>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="box" style="background: url(img/family-5.jpg) no-repeat"></div>
+            <div class="content">
+                <h3>My Neighbor Totoro</h3>
+                <p>Типа описания</p>
+                <a href="#" class="btn">Смотреть</a>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="box" style="background: url(img/family-6.jpg) no-repeat"></div>
+            <div class="content">
+                <h3>Kikis Delivery Service</h3>
+                <p>Типа описания</p>
+                <a href="#" class="btn">Смотреть</a>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="box" style="background: url(img/family-7.jpg) no-repeat"></div>
+            <div class="content">
+                <h3>Ponyo</h3>
+                <p>Типа описания</p>
+                <a href="#" class="btn">Смотреть</a>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="box" style="background: url(img/family-8.jpg) no-repeat"></div>
+            <div class="content">
+                <h3>Arrietty</h3>
+                <p>Типа описания</p>
+                <a href="#" class="btn">Смотреть</a>
+            </div>
+        </div>
+
+
+    </div>
+    </div>
+</section>
+
+<!-- copyright -->
+<div class="copyright container">
+    <a href="#" class="logo"><i class="fas fa-infinity"></i>AniBu.</a>
+    <p>&#169; SocialBu. Все права защищены.</p>
+</div>
+
+
+<!-- link swiper file -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- custome js file link -->
+    <script src="static/js/main.js"></script>
 </body>
 </html>
